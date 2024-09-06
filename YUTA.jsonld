@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "YUTA",
+    "motivations": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。これは2019年にCardanoアンバサダーになった理由であり、2020年2月に投稿されたCardanoフォーラムの記事からそれを検証できます。\n日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。\n\nhttps://forum.cardano.org/t/ambassador-stories-journal-15-michael-yuta/30723/2\n\nI want to bridge the gap between the Japanese Cardano community and Cardano governance. This is why I became a Cardano Ambassador in 2019, and can be verified from a Cardano forum post in February 2020.\nJapan is the birthplace of Cardano, and there are many holders, who have the power to have a significant influence on governance, but many people find it difficult to follow due to technical and language barriers. Through content and meetups, I will help the Japanese community understand governance.\n\nhttps://forum.cardano.org/t/ambassador-stories-journal-15-michael-yuta/30723/2\n",
+    "objectives": "・Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。\n・DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。\n\n・I will vote as necessary to help Cardano grow into a platform that supports the economic identities of billions of people.\n・DRep is just a representative. Ultimately, the success of Cardano depends on the community, i.e., ADA holders. I want to do my best to help the community, ADA holders understand governance and become direct voters(Rather than delegating to DRep)\n",
+    "paymentAddress": "addr1q98p4n60dghz3c9ar9vnmne7ygp7a5sm8dcn4g282aak4cwpa4hsu40evhlp7ptq0zll5km9um87jskrduvcefy60pls8zl4sr",
+    "qualifications": "日本の公認会計士\nDRep行動規範を起草者\nITNからのSPOの経験\nCatalyst提案者\nIntersect Japan Hubマネージャー\n日本Cardanoコミュニティの複数のモデレーターの経験（LINE・フェイスブック・テレグラム）\nミートアップ開催\nIntersect MCC メンバー\nEestern Cardano Councilメンバー\n様々なDefiプロジェクトの翻訳\n憲法ワークショップとCIP1694ワークショップの主催\nCardano アンバサダー\nCatalystレビュアー\n\nCertified Public Accountant in Japan\nDrafter of DRep Code of Conduct\nExperience as an SPO from ITN\nCatalyst proposer\nIntersect Japan Hub Manager\nExperience as multiple moderators in the Japanese Cardano community (LINE, Facebook, Telegram)\nMeetup organizer\nIntersect MCC member\nEastern Cardano Council member\nTranslation of various Defi projects\nHosting of Constitution Workshop and CIP1694 Workshop\nCardano Ambassador\nCatalyst Reviewer",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X",
+        "uri": "https://x.com/yuta_cryptox"
+      },
+      {
+        "@type": "Link",
+        "label": "Docs",
+        "uri": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "X",
+        "uri": "https://x.com/yuta_cryptox"
+      }
+    ]
+  }
+}
