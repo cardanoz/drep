@@ -62,11 +62,6 @@
     "references": [
       {
         "@type": "Link",
-        "label": "Docs",
-        "uri": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
-      },
-      {
-        "@type": "Link",
         "label": "X",
         "uri": "https://x.com/yuta_cryptox"
       },
