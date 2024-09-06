@@ -55,16 +55,10 @@
   "body": {
     "doNotList": false,
     "givenName": "YUTA",
-    "motivations": "Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。",
-    "objectives": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。これは2019年にCardanoアンバサダーになった理由であり、2020年2月に投稿されたCardanoフォーラムの記事からそれを検証できます。日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。",
-    "paymentAddress": "addr1q98p4n60dghz3c9ar9vnmne7ygp7a5sm8dcn4g282aak4cwpa4hsu40evhlp7ptq0zll5km9um87jskrduvcefy60pls8zl4sr",
-    "qualifications": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー",
-    "references": [
-      {
-        "@type": "Link",
-        "label": "X",
-        "uri": "https://x.com/yuta_cryptox"
-      }
-    ]
+    "motivations": "",
+    "objectives": "",
+    "paymentAddress": "",
+    "qualifications": "",
+    "references": []
   }
 }
