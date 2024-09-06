@@ -66,6 +66,11 @@
         "uri": "https://x.com/yuta_cryptox"
       },
       {
+        "@type": "Link",
+        "label": "Docs",
+        "uri": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
+      },
+      {
         "@type": "Identity",
         "label": "X",
         "uri": "https://x.com/yuta_cryptox"
