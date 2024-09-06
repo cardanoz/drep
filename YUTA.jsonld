@@ -87,6 +87,11 @@
     "givenName": {
       "@value": "YUTA"
     },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmcFvAA42EBE31pyY5s8mMni41gf9sK69PeWDWhReRc9iY",
+      "sha256": "870c66054dc575f5dde91bbb9c11caa398c4c50ff8bd9ac348f24577c4e57a24"
+    },
     "motivations": {
       "@value": "Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。また、DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。\nI will vote as necessary to help Cardano grow into a platform that supports the economic identities of billions of people. DRep is just a representative. Ultimately, the success of Cardano depends on the community, i.e., ADA holders. I want to do my best to help the community, ADA holders understand governance and become direct voters (Rather than delegating to DRep)."
     },
