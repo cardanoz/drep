@@ -75,9 +75,6 @@
     "@value": "blake2b-256"
   },
   "body": {
-    "bio": {
-      "@value": "Empty"
-    },
     "doNotList": {
       "@value": "false"
     },
