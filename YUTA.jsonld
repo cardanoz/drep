@@ -79,7 +79,7 @@
       "@value": "Empty"
     },
     "doNotList": {
-      "@value": false
+      "@value": "false"
     },
     "email": {
       "@value": "yutacreate@gmail.com"
