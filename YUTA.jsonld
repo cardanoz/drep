@@ -1,18 +1,31 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "bio": "CIP119:bio",
+        "doNotList": "CIP119:doNotList",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
         "references": {
           "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-            "Identity": "CIP119:IdentityReference",
-            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -24,14 +37,7 @@
               }
             }
           }
-        },
-        "paymentAddress": "CIP119:paymentAddress",
-        "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
-        "objectives": "CIP119:objectives",
-        "motivations": "CIP119:motivations",
-        "qualifications": "CIP119:qualifications",
-        "doNotList": "CIP119:doNotList"
+        }
       }
     },
     "authors": {
@@ -50,45 +56,90 @@
       }
     }
   },
-  "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820d217009046ee214569d1b625f8bef48cb8140956070c5b617b9abc244befcfc3"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583901946aff8c6b9b01fd021b53b80797307ec477dc3054e11664e2eb816312bae4f9a91f530caea01e01416a8aa3d487a8ab9a774041b106009da166686173686564f4584456657269667920445265702064726570316a6e6d6d6b6677707461307975776a63687730677536637368373576793632303838656779396e363764307a6337736e38336d5840963083ce2b87ee90d0e7788dae159aa5527b909421327d3b29bd49c6847857046171208acfb8e04f4e5b6111e4436209041702474e1046a9c34f38ce50f7680a"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
-    "doNotList": false,
-    "givenName": "YUTA",
+    "bio": {
+      "@value": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー Certified Public Accountant/Cardano Ambassador/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/Intersect Japan Hub Manager/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member"
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "yutacreate@gmail.com"
+    },
+    "givenName": {
+      "@value": "YUTA"
+    },
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://ipfs.io/ipfs/QmcFvAA42EBE31pyY5s8mMni41gf9sK69PeWDWhReRc9iY",
       "sha256": "870c66054dc575f5dde91bbb9c11caa398c4c50ff8bd9ac348f24577c4e57a24"
     },
-    "motivations": "Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。また、DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。\nI will vote as necessary to help Cardano grow into a platform that supports the economic identities of billions of people. DRep is just a representative. Ultimately, the success of Cardano depends on the community, i.e., ADA holders. I want to do my best to help the community, ADA holders understand governance and become direct voters (Rather than delegating to DRep).",
-    "objectives": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。これは2019年にCardanoアンバサダーになった理由であり、2020年2月に投稿されたCardanoフォーラムの記事からそれを検証できます。日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。\nI want to bridge the gap between the Japanese Cardano community and Cardano governance. This is why I became a Cardano Ambassador in 2019, and can be verified from a Cardano forum post in February 2020. Japan is the birthplace of Cardano, and there are many holders, who have the power to have a significant influence on governance, but many people find it difficult to follow due to technical and language barriers. Through content and meetups, I will help the Japanese community understand governance.",
-    "paymentAddress": "addr1q98p4n60dghz3c9ar9vnmne7ygp7a5sm8dcn4g282aak4cwpa4hsu40evhlp7ptq0zll5km9um87jskrduvcefy60pls8zl4sr",
-    "qualifications": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー\nCertified Public Accountant/Cardano Ambassador/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/Intersect Japan Hub Manager/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member",
+    "motivations": {
+      "@value": "Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。また、DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。\nI will vote as necessary to help Cardano grow into a platform that supports the economic identities of billions of people. DRep is just a representative. Ultimately, the success of Cardano depends on the community, i.e., ADA holders. I want to do my best to help the community, ADA holders understand governance and become direct voters (Rather than delegating to DRep)."
+    },
+    "objectives": {
+      "@value": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。これは2019年にCardanoアンバサダーになった理由であり、2020年2月に投稿されたCardanoフォーラムの記事からそれを検証できます。日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。\nI want to bridge the gap between the Japanese Cardano community and Cardano governance. This is why I became a Cardano Ambassador in 2019, and can be verified from a Cardano forum post in February 2020. Japan is the birthplace of Cardano, and there are many holders, who have the power to have a significant influence on governance, but many people find it difficult to follow due to technical and language barriers. Through content and meetups, I will help the Japanese community understand governance."
+    },
+    "paymentAddress": {
+      "@value": "addr1q98p4n60dghz3c9ar9vnmne7ygp7a5sm8dcn4g282aak4cwpa4hsu40evhlp7ptq0zll5km9um87jskrduvcefy60pls8zl4sr"
+    },
+    "qualifications": {
+      "@value": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー\nCertified Public Accountant/Cardano Ambassador/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/Intersect Japan Hub Manager/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member"
+    },
     "references": [
       {
-        "@type": "Link",
-        "label": "X",
-        "uri": "https://x.com/yuta_cryptox"
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/yuta_cryptox"
+        }
       },
       {
-        "@type": "Link",
-        "label": "Docs",
-        "uri": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
+        "@type": "Other",
+        "label": {
+          "@value": "Docs"
+        },
+        "uri": {
+          "@value": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
+        }
       },
       {
-        "@type": "Link",
-        "label": "Facebook",
-        "uri": "https://www.facebook.com/yutacardanoz/"
+        "@type": "Other",
+        "label": {
+          "@value": "Facebook"
+        },
+        "uri": {
+          "@value": "https://www.facebook.com/yutacardanoz/"
+        }
       },
       {
-        "@type": "Link",
-        "label": "Telegram",
-        "uri": "https://t.me/yutazzz"
-      },
-      {
-        "@type": "Link",
-        "label": "CardanoForum",
-        "uri": "https://forum.cardano.org/u/yuta_oishi"
+        "@type": "Other",
+        "label": {
+          "@value": "CardanoForum"
+        },
+        "uri": {
+          "@value": "https://forum.cardano.org/u/yuta_oishi"
+        }
       }
     ]
   }
