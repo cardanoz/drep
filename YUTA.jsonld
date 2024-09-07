@@ -76,7 +76,7 @@
   },
   "body": {
     "bio": {
-      "@value": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー Certified Public Accountant/Cardano Ambassador/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/Intersect Japan Hub Manager/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member"
+      "@value": "Empty"
     },
     "doNotList": {
       "@value": "false"
@@ -121,24 +121,6 @@
         },
         "uri": {
           "@value": "https://docs.google.com/document/d/1JZcK6gSFKQxy_IPDOUU_-6H_c8clFW3ozIgLd-7hBzg/edit?usp=sharing"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Facebook"
-        },
-        "uri": {
-          "@value": "https://www.facebook.com/yutacardanoz/"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "CardanoForum"
-        },
-        "uri": {
-          "@value": "https://forum.cardano.org/u/yuta_oishi"
         }
       }
     ]
