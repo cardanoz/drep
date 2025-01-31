@@ -64,7 +64,7 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
-    "bio": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Intersect Japan Hubマネージャー/Eestern Cardano Councilメンバー",
+    "bio": "公認会計士/DRep行動規範を起草者/ITN時代からのSPO/Eestern Cardano Councilメンバー",
     "email": "yutacreate@gmail.com",
     "givenName": "YUTA",
     "image": {
@@ -73,9 +73,9 @@
       "sha256": "cfd47964b1e0a2a60da3642c1847578115d3cb076258946e84fbae953e7bd018"
     },
     "motivations": "Cardanoが数十億人の経済アイデンティティを支えるプラットフォームへ成長していくために必要な投票を行います。また、DRepはあくまで代議員にすぎません。結局のところCardanoの成功には、コミュニティすなわちADAホルダーが鍵です。私はコミュニティ、ADAホルダーがガバナンスを理解できるように最善を尽くし、直接投票者となることを助けたいと考えています。\nI will vote as necessary to help Cardano grow into a platform that supports the economic identities of billions of people. DRep is just a representative. Ultimately, the success of Cardano depends on the community, i.e., ADA holders. I want to do my best to help the community, ADA holders understand governance and become direct voters (Rather than delegating to DRep).",
-    "objectives": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。これは2019年にCardanoアンバサダーになった理由であり、2020年2月に投稿されたCardanoフォーラムの記事からそれを検証できます。日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。\nI want to bridge the gap between the Japanese Cardano community and Cardano governance. This is why I became a Cardano Ambassador in 2019, and can be verified from a Cardano forum post in February 2020. Japan is the birthplace of Cardano, and there are many holders, who have the power to have a significant influence on governance, but many people find it difficult to follow due to technical and language barriers. Through content and meetups, I will help the Japanese community understand governance.",
+    "objectives": "Cardano日本コミュニティとCardanoのガバナンスの橋渡しを実現したいと考えてます。日本はCardano発祥の地で多くのホルダーが存在し、非常にガバナンス上重要な影響を与える力を持っていますが、技術の障壁および言語の障壁から、難解でついていけてない人が多いです。コンテンツやミートアップなどを通じて、日本コミュニティがガバナンスを理解するのを助けたいと考えています。\nI want to bridge the gap between the Japanese Cardano community and Cardano governance. Japan is the birthplace of Cardano, and there are many holders, who have the power to have a significant influence on governance, but many people find it difficult to follow due to technical and language barriers. Through content and meetups, I will help the Japanese community understand governance.",
     "paymentAddress": "addr1q98p4n60dghz3c9ar9vnmne7ygp7a5sm8dcn4g282aak4cwpa4hsu40evhlp7ptq0zll5km9um87jskrduvcefy60pls8zl4sr",
-    "qualifications": "公認会計士/Cardano アンバサダー/DRep行動規範を起草者/ITN時代からのSPO/Catalyst提案者/Intersect Japan Hubマネージャー/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー\nCertified Public Accountant/Cardano Ambassador/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/Intersect Japan Hub Manager/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member",
+    "qualifications": "公認会計士/DRep行動規範を起草者/ITN時代からのSPO/MCC メンバー/日本Cardanoコミュニティモデレーター/憲法,CIP1694ワークショップの主催/Eestern Cardano Councilメンバー\nCertified Public Accountant/Drafter of DRep Code of Conduct/SPO since ITN era/Catalyst proposer/reviewer/MCC Member/Japan Cardano Community Moderator/Organizer of Constitution, CIP1694 Workshop/Eastern Cardano Council Member",
     "references": [
       {
         "@type": "Other",
