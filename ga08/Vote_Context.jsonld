@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "The new Constitution clarifies rules, prevents arbitrary interpretation, and strengthens financial protections. Rejecting it risks costly reconstitution, making approval reasonable.\n新憲法は明確化により恣意的解釈を防ぎ、財務保護を強化します。承認しない場合、高コストの再制定が必要となるため、承認が妥当です。\n\nFor details, including an analysis of differences between the Interim and Draft Constitutions, see:\n暫定憲法とドラフト憲法の差異分析を含む詳細は以下を確認してください。\n\nhttps://docs.google.com/spreadsheets/d/1Cn-z715DcgxrDfpm5Ipb8S_G2hj_BDPBj4NnUGz73S0/edit?usp=sharing"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
