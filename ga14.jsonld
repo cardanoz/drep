@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I will vote YES to Amaru's 1.5M ADA budget.\n- It directly corresponds to the DRep-approved roadmap.\nhttps://committees.docs.intersectmbo.org/intersect-product-committee/committee-outcomes/2025-cardanos-roadmap/2025-proposed-cardano-roadmap…\n- Amaru has undergone very extensive socialization and already has broad community support.\n- There are close communication with the IOE's Haskell engineering team\nNode diversity workshop：https://forum.cardano.org/t/node-diversity-workshop-april-2025/145248…\n- It has the qualities of a public good that should garner support from the treasury.\n- The cost breakdown is clear and appears efficient.\n- As others have already posted, there are many other reasons to support Amaru in terms of the benefits to the Cardano ecosystem in general.\n- Please let me know if you have any concerns.\n\nAmaruのBudgetに賛成を行います。\n・DRep承認済みのロードマップに直接対応しています。\n・Amaruは非常に広範な社会化を実施しており、コミュニティの広範な支持をすでに確保しています。\n・Node diversity workshopでは IOE's Haskell engineering teamと緊密なコミュニケーションも行われました。\n・トレジャリーからのサポートを得るべきパブリックグッドの性質を備えています。\n・コストの内訳は明瞭であり、効率的であるように見えます。\n・他の人々がすでに投稿しているように、一般的にCardanoエコシステムへの利益の観点から、Amaruをサポートすべき理由は他にも多くあります。\n・懸念点などがある方はまたご指摘ください。"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
