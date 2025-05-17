@@ -1,1 +1,7 @@
-ZZZT
+{
+  "name": "ZZZT",
+  "ticker": "ZZZT",
+  "description": "No Description",
+  "homepage": "https://foo.com",
+  "nonce": "1747464502"
+}
