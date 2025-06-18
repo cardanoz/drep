@@ -213,47 +213,50 @@ the Cardano Blockchain ecosystem.
 
 ### Section 5 "Treasury Withdrawals" Action Standards
 
-The "Treasury Withdrawals" action must meet all of the
-following requirements:
+"Treasury Withdrawals" action must meet all of the following requirements:
 
-Requirement 1 This process shall designate one or more administrators
-responsible for monitoring how the funds are used, and ensuring the
-deliverables are achieved.
-
-Requirement 2 Independent auditors must be appointed to conduct periodic
-independent audits.
-
-Requirement 3 Oversight metrics for tracking the use of the withdrawn
-funds must be implemented.
-
-Requirement 4 Contractual obligations governing the use of ada received
+Requirement 1 Contractual obligations governing the use of ada received
 from the Cardano Blockchain treasury shall include dispute-resolution
 provisions, and the specific provisions to be applied must be described
 within the treasury-withdrawal governance action.
 
-Requirement 5 Any ada received from a Cardano Blockchain treasury
-withdrawal, so long as such ada is being held directly or indirectly by
-an administrator prior to further disbursement, must be kept in one or
-more separate accounts that can be audited by the Cardano Community, and
-such accounts shall not be delegated to an SPO but must be delegated to
-the predefined auto abstain voting option. 
+Requirement 2 Net Change Limit must be set and Treasury withdrawals
+must not exceed the Net Change Limit for that period.
 
-Requirement 6 Net Change Limit must be set and Treasury withdrawals must
-not exceed the Net Change Limit for that period.
+Requirement 3 One or more optional approval conditions may be proposed and
+set via an Info Action approved by at least 67% of the active DRep voting
+stake. Any such condition shall either automatically expire 146 Epochs
+(approximately two years) after the date it is set, or may be revoked
+earlier via a separate Info Action approved by a majority of the active
+DRep voting stake.
 
-Requirement 7 One or more optional approval conditions may be proposed
-and set via an Info Action approved by at least 67% of the active DRep
-voting stake. Any such condition shall either automatically expire 146
-Epochs (approximately two years) after the date it is set, or may be
-revoked earlier via a separate Info Action approved by a majority of
-the active DRep voting stake.
+Requirement 4 A roadmap that includes the applicable period of the
+treasury withdrawal must be approved by the DReps via an Info Action with
+a threshold of greater than 50% of the active voting stake. Treasury
+withdrawals must not be executed unless such a roadmap has been approved.
+The specific content of the treasury withdrawal need not align with
+the details of the approved roadmap.
 
-Requirement 8 A roadmap that includes the applicable period of the
-treasury withdrawal must be approved by the DReps via an Info Action
-with a threshold of greater than 50% of the active voting stake. 
-Treasury withdrawals must not be executed unless such a roadmap has
-been approved. The specific content of the treasury withdrawal need not
-align with the details of the approved roadmap.
+Requirement 5 For treasury withdrawals exceeding 1,000,000 ada in a
+single governance action, the following additional requirements must
+all be met:
+
+5.1 This process shall designate one or more administrators responsible
+for monitoring how the funds are used, and ensuring the deliverables
+are achieved.
+
+5.2 Independent auditors must be appointed to conduct periodic
+independent audits.
+
+5.3 Oversight metrics for tracking the use of the withdrawn funds
+must be implemented.
+
+5.4 Any ada received from a Cardano Blockchain treasury withdrawal,
+so long as such ada is being held directly or indirectly by an
+administrator prior to further disbursement, must be kept in one or
+more separate accounts that can be audited by the Cardano Community,
+and such accounts shall not be delegated to an SPO but must be
+delegated to the predefined auto abstain voting option.
 
 ## ARTICLE III. CONSTITUTIONAL COMMITTEE
 
