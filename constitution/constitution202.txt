@@ -168,6 +168,7 @@ shall vote on their behalf. Ada owners who use third-party custodians or
 other designees to hold their ada may authorize, or withhold authorization
 from, such third parties to vote or delegate the owners’ voting rights to
 registered DReps on the owners’ behalf.
+
 Ada owners shall have the right to ensure that the process for participating
 in, submitting and voting on on-chain governance actions is open and
 transparent and is protected from undue influence and manipulation.
@@ -180,17 +181,20 @@ facilitate decision-making and ensure transparency. Three independent
 voting bodies—DReps, SPOs, and the CC—participate in on-chain voting;
 anyone holding multiple roles must publicly disclose such overlaps before
 engaging in any on-chain governance actions.
+
 DReps vote on all types of governance actions. DReps shall ensure that any
 compensation received in connection with their activities as a DRep is
 publicly disclosed in a timely manner through relevant governance
 communication channels. DReps shall not offer or provide compensation to
 an ada owner or their designee in exchange for being appointed as a DRep
 or for voting on their behalf.
+
 SPOs vote on "Hard Fork Initiation", “No Confidence”, “Update Committee”,
 and "Parameter Update" governance actions that affect security-critical
 parameters set forth under Parameters that are Critical to the Operation
 of the Blockchain in Section 2.1 of the Cardano Blockchain Guardrails
 Appendix.
+
 Further provisions regarding the CC are set forth in Article III.
 
 ### Section 4 Governance Action Standards
@@ -201,13 +205,16 @@ recorded or enacted on-chain. This format shall include a URL and hash
 of all immutable relevant off-chain documentation. Each proposal shall
 provide sufficient rationale, including at minimum: a title, abstract,
 justification, and relevant supporting materials.
+
 The content of every on-chain governance action must be identical to the
 final off-chain version of the proposed action.
+
 "Hard Fork Initiation" and "Parameter Update" actions shall undergo
 sufficient technical review and scrutiny as mandated by the Guardrails to
 ensure that the governance action does not endanger the security,
 functionality, performance or long-term sustainability of the
 Cardano Blockchain.
+
 On-chain governance actions should address their expected impact on
 the Cardano Blockchain ecosystem.
 
@@ -270,6 +277,7 @@ governance actions prior to enactment on-chain are constitutional.
 No governance action—other than a “No Confidence” or “Update Committee”
 action—may be implemented on-chain without affirmation by a requisite
 percentage of CC members.
+
 Except for Info actions, the CC shall be limited to voting on the
 constitutionality of governance actions to be enacted on-chain.
 For Info actions, having no on-chain effect and being neither
@@ -292,6 +300,7 @@ no confidence, members of the then standing CC must be reinstated or replaced
 using the “Update Committee” action before any other on-chain governance
 action, other than "Info" actions, may go forward. 
 If a “No Confidence” action is enacted, a state of no confidence will result. 
+
 The Cardano Community shall establish and make public a process from time to
 time for election of members of the CC consistent with the requirements of
 the Guardrails. In the event of a vote of no confidence or the removal of
@@ -306,8 +315,10 @@ unconstitutional, each CC member casting such a vote shall set forth the
 basis for its decision with reference to specific Articles of this
 Constitution or provisions of the Cardano Blockchain Guardrails Appendix
 that are in conflict with a given proposal. 
+
 Each CC member shall operate pursuant to a code of conduct periodically
 adopted and published by CC member.
+
 CC members may be compensated for their efforts as members and shall ensure
 that any compensation received in connection with such activities is
 disclosed in a timely manner through relevant governance communication
