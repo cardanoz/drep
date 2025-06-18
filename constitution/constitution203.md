@@ -41,6 +41,12 @@ the Guardrails Appendix.
 Stake Pool Operator (SPO). An individual or entity that manifests intent
 through the signed transactions of a Stake Pool.
 
+Stake Pool. A Stake Pool Operator’s Block producing node, identified by
+a unique Stake Pool ID, which aggregates applicable Delegator stake,
+forges and validates Blocks, and facilitates contributions of the SPO to
+the Cardano Blockchain’s security, decentralization, consensus mechanism,
+and governance process.
+
 Delegated Representative (DRep). The individual or entity registered to
 vote with respect to on-chain Governance Actions for its own behalf or
 on behalf of other owners of ada.
@@ -126,7 +132,7 @@ The Cardano Blockchain shall operate in accordance with the Cardano Blockchain
 Guardrails 
 Appendix to this Constitution. The Cardano Community may digitally
 codify certain Guardrails such that the Guardrails are directly programmed
-and implemented on the Cardano Blockchain using on-chain Guardrails Scripts
+and implemented on the Cardano Blockchain using on-chain Guardrails Script
 or built-in ledger rules.
 
 In the event there are inconsistencies between a Guardrail as set forth in the
@@ -162,6 +168,7 @@ shall vote on their behalf. Ada owners who use third-party custodians or
 other designees to hold their ada may authorize, or withhold authorization
 from, such third parties to vote or delegate the owners’ voting rights to
 registered DReps on the owners’ behalf.
+
 Ada owners shall have the right to ensure that the process for participating
 in, submitting and voting on on-chain governance actions is open and
 transparent and is protected from undue influence and manipulation.
@@ -174,17 +181,20 @@ facilitate decision-making and ensure transparency. Three independent
 voting bodies—DReps, SPOs, and the CC—participate in on-chain voting;
 anyone holding multiple roles must publicly disclose such overlaps before
 engaging in any on-chain governance actions.
+
 DReps vote on all types of governance actions. DReps shall ensure that any
 compensation received in connection with their activities as a DRep is
 publicly disclosed in a timely manner through relevant governance
 communication channels. DReps shall not offer or provide compensation to
 an ada owner or their designee in exchange for being appointed as a DRep
 or for voting on their behalf.
+
 SPOs vote on "Hard Fork Initiation", “No Confidence”, “Update Committee”,
 and "Parameter Update" governance actions that affect security-critical
 parameters set forth under Parameters that are Critical to the Operation
 of the Blockchain in Section 2.1 of the Cardano Blockchain Guardrails
 Appendix.
+
 Further provisions regarding the CC are set forth in Article III.
 
 ### Section 4 Governance Action Standards
@@ -195,61 +205,65 @@ recorded or enacted on-chain. This format shall include a URL and hash
 of all immutable relevant off-chain documentation. Each proposal shall
 provide sufficient rationale, including at minimum: a title, abstract,
 justification, and relevant supporting materials.
+
 The content of every on-chain governance action must be identical to the
 final off-chain version of the proposed action.
+
 "Hard Fork Initiation" and "Parameter Update" actions shall undergo
 sufficient technical review and scrutiny as mandated by the Guardrails to
 ensure that the governance action does not endanger the security,
 functionality, performance or long-term sustainability of the
 Cardano Blockchain.
+
 On-chain governance actions should address their expected impact on
 the Cardano Blockchain ecosystem.
 
 ### Section 5 "Treasury Withdrawals" Action Standards
 
-Every request to withdraw funds from the Cardano Blockchain treasury
-must include a defined oversight and auditing process.
-The "Treasury Withdrawals" action must meet at least all of the
-following requirements:
+"Treasury Withdrawals" action must meet all of the following requirements:
 
-Requirement 1 This process shall designate one or more administrators
-responsible for monitoring how the funds are used, and ensuring the
-deliverables are achieved.
-
-Requirement 2 Independent auditors must be appointed to conduct periodic
-independent audits.
-
-Requirement 3 Oversight metrics for tracking the use of the withdrawn
-funds must be implemented.
-
-Requirement 4 Contractual obligations governing the use of ada received
+Requirement 1 Contractual obligations governing the use of ada received
 from the Cardano Blockchain treasury shall include dispute-resolution
 provisions, and the specific provisions to be applied must be described
 within the treasury-withdrawal governance action.
 
-Requirement 5 Any ada received from a Cardano Blockchain treasury
-withdrawal, so long as such ada is being held directly or indirectly by
-an administrator prior to further disbursement, must be kept in one or
-more separate accounts that can be audited by the Cardano Community, and
-such accounts shall not be delegated to an SPO but must be delegated to
-the predefined auto abstain voting option. 
+Requirement 2 Net Change Limit must be set and Treasury withdrawals
+must not exceed the Net Change Limit for that period.
 
-Requirement 6 Net Change Limit must be set and Treasury withdrawals must
-not exceed the Net Change Limit for that period.
+Requirement 3 One or more optional approval conditions may be proposed and
+set via an Info Action approved by at least 67% of the active DRep voting
+stake. Any such condition shall either automatically expire 146 Epochs
+(approximately two years) after the date it is set, or may be revoked
+earlier via a separate Info Action approved by a majority of the active
+DRep voting stake.
 
-Requirement 7 One or more optional approval conditions may be proposed
-and set via an Info Action approved by at least 67% of the active DRep
-voting stake. Any such condition shall either automatically expire 146
-Epochs (approximately two years) after the date it is set, or may be
-revoked earlier via a separate Info Action approved by a majority of
-the active DRep voting stake.
+Requirement 4 A roadmap that includes the applicable period of the
+treasury withdrawal must be approved by the DReps via an Info Action with
+a threshold of greater than 50% of the active voting stake. Treasury
+withdrawals must not be executed unless such a roadmap has been approved.
+The specific content of the treasury withdrawal need not align with
+the details of the approved roadmap.
 
-Requirement 8 A roadmap that includes the applicable period of the
-treasury withdrawal must be approved by the DReps via an Info Action
-with a threshold of greater than 50% of the active voting stake. 
-Treasury withdrawals must not be executed unless such a roadmap has
-been approved. The specific content of the treasury withdrawal need not
-align with the details of the approved roadmap.
+Requirement 5 For treasury withdrawals exceeding 1,000,000 ada in a
+single governance action, the following additional requirements must
+all be met:
+
+5.1 This process shall designate one or more administrators responsible
+for monitoring how the funds are used, and ensuring the deliverables
+are achieved.
+
+5.2 Independent auditors must be appointed to conduct periodic
+independent audits.
+
+5.3 Oversight metrics for tracking the use of the withdrawn funds
+must be implemented.
+
+5.4 Any ada received from a Cardano Blockchain treasury withdrawal,
+so long as such ada is being held directly or indirectly by an
+administrator prior to further disbursement, must be kept in one or
+more separate accounts that can be audited by the Cardano Community,
+and such accounts shall not be delegated to an SPO but must be
+delegated to the predefined auto abstain voting option.
 
 ## ARTICLE III. CONSTITUTIONAL COMMITTEE
 
@@ -263,6 +277,7 @@ governance actions prior to enactment on-chain are constitutional.
 No governance action—other than a “No Confidence” or “Update Committee”
 action—may be implemented on-chain without affirmation by a requisite
 percentage of CC members.
+
 Except for Info actions, the CC shall be limited to voting on the
 constitutionality of governance actions to be enacted on-chain.
 For Info actions, having no on-chain effect and being neither
@@ -285,6 +300,7 @@ no confidence, members of the then standing CC must be reinstated or replaced
 using the “Update Committee” action before any other on-chain governance
 action, other than "Info" actions, may go forward. 
 If a “No Confidence” action is enacted, a state of no confidence will result. 
+
 The Cardano Community shall establish and make public a process from time to
 time for election of members of the CC consistent with the requirements of
 the Guardrails. In the event of a vote of no confidence or the removal of
@@ -299,8 +315,10 @@ unconstitutional, each CC member casting such a vote shall set forth the
 basis for its decision with reference to specific Articles of this
 Constitution or provisions of the Cardano Blockchain Guardrails Appendix
 that are in conflict with a given proposal. 
+
 Each CC member shall operate pursuant to a code of conduct periodically
 adopted and published by CC member.
+
 CC members may be compensated for their efforts as members and shall ensure
 that any compensation received in connection with such activities is
 disclosed in a timely manner through relevant governance communication
@@ -417,12 +435,6 @@ a policy ID and policy name.
 for Block production and network security, to a DRep for participation in
 on-chain governance, or both. In doing so, the delegator contributes to the
 operation and governance of the Cardano Blockchain.
-
-**Stake Pool.** A Stake Pool Operator’s Block producing node, identified by
-a unique Stake Pool ID, which aggregates applicable Delegator stake,
-forges and validates Blocks, and facilitates contributions of the SPO to
-the Cardano Blockchain’s security, decentralization, consensus mechanism,
-and governance process.
 
 **Active Block Production Stake.** The cumulative amount of stake, measured
 in lovelace, that is actively delegated to Stake Pools and utilized for Block
