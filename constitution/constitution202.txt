@@ -41,6 +41,12 @@ the Guardrails Appendix.
 Stake Pool Operator (SPO). An individual or entity that manifests intent
 through the signed transactions of a Stake Pool.
 
+Stake Pool. A Stake Pool Operator’s Block producing node, identified by
+a unique Stake Pool ID, which aggregates applicable Delegator stake,
+forges and validates Blocks, and facilitates contributions of the SPO to
+the Cardano Blockchain’s security, decentralization, consensus mechanism,
+and governance process.
+
 Delegated Representative (DRep). The individual or entity registered to
 vote with respect to on-chain Governance Actions for its own behalf or
 on behalf of other owners of ada.
@@ -126,7 +132,7 @@ The Cardano Blockchain shall operate in accordance with the Cardano Blockchain
 Guardrails 
 Appendix to this Constitution. The Cardano Community may digitally
 codify certain Guardrails such that the Guardrails are directly programmed
-and implemented on the Cardano Blockchain using on-chain Guardrails Scripts
+and implemented on the Cardano Blockchain using on-chain Guardrails Script
 or built-in ledger rules.
 
 In the event there are inconsistencies between a Guardrail as set forth in the
@@ -207,9 +213,7 @@ the Cardano Blockchain ecosystem.
 
 ### Section 5 "Treasury Withdrawals" Action Standards
 
-Every request to withdraw funds from the Cardano Blockchain treasury
-must include a defined oversight and auditing process.
-The "Treasury Withdrawals" action must meet at least all of the
+The "Treasury Withdrawals" action must meet all of the
 following requirements:
 
 Requirement 1 This process shall designate one or more administrators
@@ -417,12 +421,6 @@ a policy ID and policy name.
 for Block production and network security, to a DRep for participation in
 on-chain governance, or both. In doing so, the delegator contributes to the
 operation and governance of the Cardano Blockchain.
-
-**Stake Pool.** A Stake Pool Operator’s Block producing node, identified by
-a unique Stake Pool ID, which aggregates applicable Delegator stake,
-forges and validates Blocks, and facilitates contributions of the SPO to
-the Cardano Blockchain’s security, decentralization, consensus mechanism,
-and governance process.
 
 **Active Block Production Stake.** The cumulative amount of stake, measured
 in lovelace, that is actively delegated to Stake Pools and utilized for Block
