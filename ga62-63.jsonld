@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I will always be grateful for the enormous contributions made by the Snek project.\n\nThis proposal will not pass anyway due to its unconstitutional nature, but even so, I am voting NO because I believe the following points are necessary:\n\nAs Charles pointed out, I recommend adding a treasury repayment plan here, as well as KPIs and target values and related historical analysis.\n\nSince the exchange has already been listed on Kraken, I think it would be effective to analyze the impact of the listing on the ecosystem and attach the results of that analysis.\n\nFor each of the \"Ecosystem Benefits\" listed, I would appreciate it if you could provide an analysis of KPIs and target values, showing how much each value has increased as a result of the Kraken listing, and how much further you expect it to increase with the additional exchange listings listed. This will allow us to grasp quantitative information about the benefits the ecosystem will gain from this proposal.\n\nThen, when the proposal is completed, we will be able to compare those target KPIs with the actual values and determine whether the proposal was ultimately a success or failure.\n(Not just whether the promise was formally fulfilled, but whether it ultimately had an impact on the ecosystem worth 5 million ADA)\n\n\n私はSnekプロジェクトの巨大な貢献にいつも感謝しています。\n\nこの提案書は憲法違反のためいずれにせよ通ることはありませんが、それを差し引いても次のような点が必要だと思うためにNOを投票します。\n\nチャールズさんの指摘するように、ここにトレジャリーへの返済計画を追加し、かつ、KPIとターゲット値およびそれに関する過去の分析を追加することを推奨します。\n\nすでにKrakenへの上場が行われているため、その上場によるエコシステムへの効果を分析し分析結果を添付することが効果的だと思います。\n\n「Ecosystem Benefits」に列挙される各々は、Krakenの上場により各々どの数値がどの程度上昇しており、追加で列挙されている取引所の上場により、さらにどれほど上昇することを見込んでいるのか、KPIとターゲット値の分析を設定していただけると幸いです。そのようにすることで、この提案書でエコシステムがどのような利益を得るのか定量的な情報を把握することができます。\nそしてこの提案書の実行が終了した時、それらの目標KPIターゲットと実際の値を見比べて、この提案書が結果的に失敗したのか成功したのかを判断することができます。\n（形式的に約束を果たしたかどうかだけではなく、結果的にエコシステムに５M ADAに見合うインパクトを与えたのかどうか）"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
